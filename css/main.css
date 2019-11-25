@@ -1,0 +1,182 @@
+/* Global */
+
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+/* Navbar */
+
+.top-nav {
+  font-size: 17px;
+  padding: 20px;
+  background: #d6e4e8 !important;
+}
+.top-nav a {
+  color: #296d79 !important;
+}
+
+.top-nav a:hover {
+  text-transform: uppercase;
+}
+
+#banner .jumbotron {
+  height: 300px;
+  background: #fff !important;
+}
+
+#banner .jumbotron h1 {
+  color: #50919b;
+  text-shadow: rgba(200, 200, 200, 0.4) 5px 2px 8px;
+  margin-bottom: 2rem;
+  margin-top: 2.5rem;
+}
+#banner .jumbotron .hr1 {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+  font-size: 25px;
+}
+#banner .jumbotron .hr1:after {
+  content: "Web Developer";
+  color: #16516d;
+  text-shadow: rgba(200, 200, 200, 0.3) 5px 2px 8px;
+  display: inline-block;
+  position: relative;
+  top: -0.9em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
+
+.hr2 {
+  margin-top: 5rem;
+  width: 6%;
+  margin: 65px auto;
+  border-width: 15px 15px 15px;
+  border-style: dotted dotted none;
+  border-color: #e5e5e5;
+  border-image: initial;
+  border-bottom: none;
+}
+
+/* About Section */
+
+#about {
+  height: 500px !important;
+  background: url("/emma-francis-vpHCfunwDrQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -1000;
+}
+
+#about .jumbotron {
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -500;
+}
+
+#about img {
+  width: 200px;
+  -webkit-box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+#about .img-fluid {
+  border-radius: 50%;
+}
+
+#about a {
+  position: relative;
+  z-index: 10;
+}
+
+#about ul li a i {
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+}
+
+#projects {
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  background: #d6e4e8;
+}
+
+#projects h2 {
+  color: #16516d;
+}
+
+#projects .card {
+  width: 20rem;
+  height: 30rem;
+  border: 1px solid #16516d !important;
+  -webkit-box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
+}
+
+#contact ul li {
+  list-style: none;
+  margin-right: 20px !important;
+}
+
+#contact ul li i {
+  font-size: 30px;
+  color: #16516d;
+}
+
+#contact ul li i:hover {
+  color: #296d79;
+}
+
+#contact a {
+  text-decoration: none;
+}
+
+.btn-info {
+  display: flex;
+  align-items: center;
+  background: #16516d !important;
+  justify-content: center;
+  height: 52px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-info:hover {
+  background: #296d79 !important;
+}
+
+.fi-xnluxl-file {
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+}
+
+.btn-outline-info:hover {
+  text-decoration: none;
+  background: #296d79;
+}
+
+.btn-outline-info a:hover {
+  text-decoration: none;
+}
+
+footer {
+  background: #16516d;
+  height: 65px;
+}
