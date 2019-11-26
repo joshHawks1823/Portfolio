@@ -64,7 +64,7 @@ body {
 /* About Section */
 
 #about {
-  background: #296d79;
+  background: #296d79 !important;
   background-position: center center;
   background-size: cover;
   position: relative;
