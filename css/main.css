@@ -64,25 +64,26 @@ body {
 /* About Section */
 
 #about {
-  height: 500px !important;
   background: url("/emma-francis-vpHCfunwDrQ-unsplash.jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  position: absolute;
   position: relative;
   top: 0;
   bottom: 0;
-  height: 100vh;
-  z-index: -1000;
+  height: 75vh;
+  z-index: -10;
+  font-size: 20px;
 }
 
 #about .jumbotron {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
   top: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
-  z-index: -500;
+  z-index: -5;
+  border-radius: 0;
 }
 
 #about img {
@@ -92,21 +93,17 @@ body {
   box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
 }
 
+#about p {
+  text-shadow: rgba(200, 200, 200, 0.4) 5px 2px 8px !important;
+  font-size: 22px !important;
+}
+
 #about .img-fluid {
   border-radius: 50%;
 }
 
-#about a {
-  position: relative;
-  z-index: 10;
-}
-
-#about ul li a i {
-  position: relative;
-  font-size: 50px;
-  color: #fff;
-  z-index: 10;
-  cursor: pointer;
+#about .imgMargin {
+  margin-top: 60px !important;
 }
 
 #projects {
@@ -129,6 +126,26 @@ body {
   box-shadow: -1px -1px 13px -6px rgba(0, 0, 0, 0.75);
 }
 
+#projects img {
+  height: 200px;
+}
+
+#projects .card-title {
+  color: #16516d !important;
+}
+#projects .card-text {
+  color: #16516d !important;
+}
+
+#projects .btn-outline-primary {
+  border: 1px solid #16516d !important ;
+  color: #16516d !important;
+}
+#projects .btn-outline-primary:hover {
+  background: #296d79 !important ;
+  color: #fff !important;
+}
+
 #contact ul li {
   list-style: none;
   margin-right: 20px !important;
@@ -145,6 +162,10 @@ body {
 
 #contact a {
   text-decoration: none;
+}
+
+#contact .fi {
+  margin-top: 20px !important;
 }
 
 .btn-info {
@@ -179,4 +200,10 @@ body {
 footer {
   background: #16516d;
   height: 65px;
+}
+
+@media screen and (max-width: 800px) {
+  #about {
+    height: 115vh;
+  }
 }
