@@ -64,7 +64,7 @@ body {
 /* About Section */
 
 #about {
-  background: url("/img/paul-gilmore-mqO0Rf-PUMs-unsplash.jpg") !important;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   background-position: center center;
   background-size: cover;
   position: relative;
