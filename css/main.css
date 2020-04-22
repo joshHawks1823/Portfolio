@@ -64,8 +64,7 @@ body {
 /* About Section */
 
 #about {
-  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
-  background-color: blue;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   background-position: center center;
   background-size: cover;
   position: relative;
