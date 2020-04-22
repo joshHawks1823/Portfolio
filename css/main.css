@@ -204,6 +204,6 @@ footer {
 
 @media screen and (max-width: 800px) {
   #about {
-    height: 195vh;
+    height: 175vh;
   }
 }
